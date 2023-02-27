@@ -1,0 +1,247 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* red */
+    body{
+        background-color: aliceblue;
+    }
+    main{
+        margin-top:20px;
+        background-color:aliceblue;
+        border:5px solid green;
+    }
+    .pad-10{
+        padding:10px;
+    }
+    h1,h2,h3,.pad-10 p,form{
+        position: relative;
+        text-align:left;
+        /* background-color: red; */
+    }
+    .main{
+        background-color:rgb(196, 234, 196);
+        text-align:left;
+        margin-left:20px;
+        height:100px;
+        padding:5px;
+    }
+    .mt-10{
+        margin-top: 10px;
+        padding:5px;
+    }
+    div.mt-10{
+        overflow: auto;
+        border:1px solid green;
+    }
+    .mt-10 a:hover{
+        background-color:rgb(68, 158, 68);
+    }
+    .iter{
+        font-size:20px;
+        float:left;
+        background-color:green;
+        color:white;
+        font-weight: bold;
+        display: block;
+        padding:15px;
+        text-align: center;
+    }
+    .iter span{
+        font-size: 30px;
+        background-color:none;
+        padding:0px;
+    }
+    .float-right{
+        float:right;
+    }
+    .div-bg{
+        background-color:  rgb(16, 16, 16);
+        border:1px solid white;
+    }
+    #answer{
+        font-weight: bold;
+        font-size:20px;
+    }
+    .title{
+        border:none;
+        border-right: 1px solid white;
+        border-left: 1px solid white;
+        background-color:transparent;
+        color:white;
+        font-weight: bold;
+    }
+    .title p{
+        font-size:10px;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* orange */
+    body{
+        background-color:aliceblue;
+    }
+
+    main{
+        margin-top:20px;
+        background-color:aliceblue;
+        border:5px solid green;
+    }
+    .pad-10{
+        padding:10px;
+    }
+    h1,h2,h3,.pad-10 p,form{
+        position: relative;
+        text-align:left;
+        /* background-color: red; */
+    }
+    .main{
+        /* position: relative; */
+        background-color:rgb(196, 234, 196);
+        text-align:left;
+        margin-left:20px;
+        height:100px;
+        padding:5px;
+    }
+    .mt-10{
+        margin-top: 10px;
+        padding:5px;
+    }
+    div.mt-10{
+        overflow: auto;
+        border:1px solid green;
+    }
+    .mt-10 a:hover{
+        background-color:rgb(68, 158, 68);
+    }
+    .iter{
+        font-size:20px;
+        float:left;
+        background-color:green;
+        color:white;
+        font-weight: bold;
+        display: block;
+        padding:15px;
+        text-align: center;
+    }
+    .iter span{
+        font-size: 30px;
+        background-color:none;
+        padding:0px;
+    }
+    .float-right{
+        float:right;
+    }
+   
+
+    #answer{
+        font-weight: bold;
+        font-size:20px;
+    }
+    .div-bg{
+        background-color:  rgb(16, 16, 16);
+        border:1px solid white;
+    }
+    .foot{
+        margin-top:10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* yellow */
+    body{
+        background-color: aliceblue;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* green */
+    body{
+        background-color: aliceblue;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* brown */
+    body{
+        background-color:aliceblue;
+    }
+    main{
+        margin-top:20px;
+        background-color:aliceblue;
+        border:5px solid green;
+    }
+    .pad-10{
+        padding:10px;
+    }
+    h1,h2,h3,.pad-10 p,form{
+        font-size:40px;
+    }
+    .main{
+        background-color:rgb(196, 234, 196);
+        text-align:left;
+        margin-left:20px;
+        height:100px;
+        padding:5px;
+        font-size: 40px;
+    }
+    .mt-10{
+        margin-top: 10px;
+        padding:5px;
+    }
+    /* div.mt-10{
+        overflow: auto;
+        border:1px solid green;
+    } */
+    .iter{
+        font-size:50px;
+        float:left;
+        background-color:green;
+        color:white;
+        font-weight: bold;
+        display: block;
+        padding:30px;
+        text-align: center;
+    }
+    .iter span{
+        font-size: 50px;
+        background-color:none;
+        padding:0px;
+    }
+    .float-right{
+        float:right;
+    }
+    /* .div-bg{
+        border:none;
+    } */
+    #answer{
+        font-weight: bold;
+        font-size:50px;
+    }
+
+    /* #sec-test li a{
+        font-size:30px;
+        padding:5px 10px;
+        font-weight: bold;
+    } */
+    #sec-test li {
+        display:block;
+    }
+
+    #a_hamburger{
+        display: block;
+        transition:none;
+        background-color:red;
+        padding-top:0px;
+        position: relative;
+        top:-60px;
+        float: right;
+        margin-top: 70px;
+    }
+    .foot{
+        margin-top:30px;
+    }
+}

@@ -1,0 +1,12 @@
+table{
+    color:red;
+    /* display: flex; */
+}
+
+
+th, td{ 
+    padding:0% 20%;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}

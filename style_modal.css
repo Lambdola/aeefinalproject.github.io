@@ -1,0 +1,392 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* red */
+    body{
+        background-color:aliceblue;
+    }
+
+    .body {
+        padding: 10px;
+    }
+    
+    .section:hover {
+        padding: 5px 10px;
+        background-color:rgb(188, 221, 188);
+    }
+    .contents {
+        background-color: none;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+    #AEESSUI {
+        color: green;
+        border: 1px solid green;
+        padding: 3px 5px 3px 5px;
+        font-weight: bold;
+    }
+    
+    .contents #close {
+        float: right;
+        background-color: rgb(196, 234, 196);
+        color: red;
+        font-size: 10px;
+        padding: 5px 10px 5px 10px;
+        border: 1px solid #111;
+        font-weight: bold;
+    }
+    
+    #btn_space {
+        float: right;
+        visibility: hidden;
+        position: absolute;
+    }
+    
+    .contents #search {
+        float: right;
+        background-color:  rgb(196, 234, 196);
+        color:  black;
+        font-size: 10px;
+        padding: 5px 10px 5px 10px;
+        border: 1px solid  #111;
+        font-weight: bold;
+    }
+    
+    hr {
+        border: 0.5px solid green;
+    }
+    
+    .fs-15 {
+        font-size: 15px;
+    }
+    
+    .fs-15 a {
+        background-color:rgb(80, 96, 80);
+        border: 1px solid transparent;
+        display: flex;
+        padding: 0px 10px 0px 20px;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    .fs-15 a:hover {
+        display:block ;
+        border: 1px solid white;
+        color: white;
+        background-color:green;
+    }
+    
+    #elements {
+        padding: 10px 0px 0px 20px;
+        font-size: 10px;
+    }
+    
+    .sub-elements {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        background-color: none;
+        padding: 5px 0px 1px 0px;
+    }
+    
+    .sub-elements a {
+        text-decoration: none;
+        color:purple;
+        font-weight: bold;;
+        cursor: pointer;
+    }
+    
+    .sub-elements a:hover {
+        /* background-color: rgb(33, 33, 69); */
+        background-color: aliceblue;
+        border-right:1px solid green;
+        border-left:1px solid green;
+        border-bottom:1px solid green;
+        border-top:5px solid green;
+        font-weight: bold;
+        font-size: 20px;
+        color: green;
+        cursor: pointer;
+        padding: 10px;
+    }
+    
+    .sub-elements-l {
+        display: flex;
+        flex-basis: 50%;
+        background-color: none;
+        /* color: white; */
+        margin-top: -5px;
+    }
+    
+    .sub-elements-r {
+        display: flex;
+        flex-basis: 40%;
+        background-color: #dddddd;
+        /* color: white; */
+        flex-wrap: wrap;
+        overflow: auto;
+        padding: 5px 0px 5px 5px;
+        margin-top: -5px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* orange */
+    body{
+        background-color:aliceblue;
+    }
+
+    .body {
+        padding: 10px;
+    }
+    
+    .section:hover {
+        padding: 5px 10px;
+        background-color:rgb(188, 221, 188);
+    }
+    .contents {
+        background-color: none;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+    #AEESSUI {
+        color: green;
+        border: 1px solid green;
+        padding: 3px 5px 3px 5px;
+        font-weight: bold;
+    }
+    
+    .contents #close {
+        float: right;
+        background-color:  rgb(196, 234, 196);
+        color: red;
+        font-size: 10px;
+        padding: 5px 10px 5px 10px;
+        border: 1px solid #111;
+        font-weight: bold;
+    }
+    
+    #btn_space {
+        float: right;
+        visibility: hidden;
+    }
+    
+    .contents #search {
+        float: right;
+        background-color:  rgb(196, 234, 196);
+        color: black;
+        font-size: 10px;
+        padding: 5px 10px 5px 10px;
+        border: 1px solid #111;
+        font-weight: bold;
+    }
+    
+    hr {
+        border: 0.5px solid green;
+    }
+    
+    .fs-15 {
+        font-size: 15px;
+    }
+    
+    .fs-15 a {
+        background-color:rgb(80, 96, 80);
+        border: 1px solid transparent;
+        display: flex;
+        padding: 0px 10px 0px 20px;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    .fs-15 a:hover {
+        display:block ;
+        border: 1px solid white;
+        color: white;
+        background-color:green;
+    }
+    
+    #elements {
+        padding: 10px 0px 0px 20px;
+        font-size: 10px;
+    }
+    
+    .sub-elements {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        background-color: none;
+        padding: 5px 0px 1px 0px;
+    }
+    
+    .sub-elements a {
+        text-decoration: none;
+        color:  purple;
+        font-weight: bold;;
+        cursor: pointer;
+    }
+    
+    .sub-elements a:hover {
+        /* background-color: rgb(33, 33, 69); */
+        background-color: aliceblue;
+        border-right:1px solid green;
+        border-left:1px solid green;
+        border-bottom:1px solid green;
+        border-top:5px solid green;
+        font-weight: bold;
+        font-size: 20px;
+        color: green;
+        cursor: pointer;
+        padding: 10px;
+    }
+    
+    .sub-elements-l {
+        display: flex;
+        flex-basis: 50%;
+        background-color: none;
+        /* color: white; */
+        margin-top: -5px;
+    }
+    
+    .sub-elements-r {
+        display: flex;
+        flex-basis: 40%;
+        background-color: #dddddd;
+        /* color: red; */
+        flex-wrap: wrap;
+        overflow: auto;
+        padding: 5px 0px 5px 5px;
+        margin-top: -5px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* yellow */
+    body{
+        background-color:aliceblue;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* green */
+    body{
+        background-color: aliceblue;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* brown */
+    body{
+        background-color:aliceblue;
+    }
+    .body {
+        padding: 10px;
+    }
+    
+    .section:hover {
+        padding: 5px 10px;
+        background-color:rgb(188, 221, 188);
+    }
+    .contents {
+        background-color: none;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    
+    #AEESSUI {
+        font-size: 50px;
+        color: green;
+        border: 1px solid green;
+        padding: 3px 5px 3px 5px;
+        font-weight: bold;
+    }
+    
+    .contents #close {
+        float: right;
+        background-color: rgb(196, 234, 196);
+        color: red;
+        font-size: 10px;
+        padding: 5px 10px 5px 10px;
+        border: 1px solid  #111;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    
+    
+    .contents #search {
+        float: right;
+        background-color: rgb(196, 234, 196);
+        color:  black;
+        font-size: 10px;
+        padding: 5px 10px 5px 10px;
+        border: 1px solid #111;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    
+    
+    .fs-15 {
+        font-size: 50px;
+    }
+    
+    
+    
+    #elements {
+        padding: 10px 0px 0px 20px;
+        font-size: 50px;
+    }
+    
+    .sub-elements {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        background-color: none;
+        padding: 5px 0px 1px 0px;
+        /* font-weight: bold; */
+    }
+    
+    .sub-elements a {
+        text-decoration: none;
+        color:  purple;
+        cursor: pointer;
+    }
+    
+    .sub-elements a:hover {
+        /* background-color: rgb(33, 33, 69); */
+        /* font-weight: bold; */
+        background-color: aliceblue;
+        border-right:1px solid green;
+        border-left:1px solid green;
+        border-bottom:1px solid green;
+        border-top:5px solid green;
+        font-size: inherit;
+        color: green;
+        cursor: pointer;
+        padding: 10px;
+    }
+    
+    .sub-elements-l {
+        display: flex;
+        flex-basis: 50%;
+        background-color: none;
+        /* color: white; */
+        margin-top: -5px;
+    }
+    
+    .sub-elements-r {
+        display: flex;
+        flex-basis: 40%;
+        background-color: #dddddd;
+        /* color: white; */
+        flex-wrap: wrap;
+        overflow: auto;
+        padding: 5px 0px 5px 5px;
+        margin-top: -5px;
+    }
+}

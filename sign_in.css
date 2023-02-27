@@ -1,0 +1,312 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: red;
+    }
+    li{
+        display:inline;
+    }
+    
+    #form-field{
+        position:relative;
+        margin:25%;
+        background-color:darkolivegreen;
+        text-align: center;
+        padding: 0px;
+        display:flex;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height:300px;
+    }
+    
+    #form-field img{
+        width:100%;
+        height:300px;
+        position: absolute;
+        opacity:0.1;
+    }
+    #section{
+        background-color:none;
+        text-align: center;
+        padding: 10px;
+        position:relative;
+        overflow: hidden;
+    }
+    #name{
+        font-family:'Courier New', Courier, monospace;
+        font-weight: 900;
+        color:white;
+    }
+    
+    /* form{
+       background-color: red;
+    } */
+    
+    form input{
+        /* border:1px solid blue; */
+        margin-bottom: 20px;
+        box-shadow: 0px 0px 10px #ddd;
+    }
+    
+    form p{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    form button{
+        background-color: green; 
+        padding:5px 10px;
+        border-radius: 5px;
+        color:whitesmoke;
+        border:1px solid black;
+        cursor: pointer;
+    }
+    #logout{
+        background-color: rgb(243, 7, 7);
+        padding:5px 10px;
+        margin-left:10px;
+        text-align: center;
+        border:1px solid black;
+        color:white;
+    }
+
+    #nav{
+        font-size:15px;
+        font-weight: bold;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body{
+        background-color:aliceblue;
+    }
+    li{
+        display:inline;
+    }
+    
+    #form-field{
+        position:relative;
+        margin:5% 25%;
+        background-color: aliceblue;
+        text-align: center;
+        padding: 0px;
+        display:flex;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height:300px;
+        /* border:1px solid green; */
+    }
+    
+    #form-field img{
+        width:100%;
+        height:300px;
+        /* position: absolute; */
+        opacity:0.1;
+    }
+    #section{
+        position:absolute;
+        width:80%;
+        /* height:auto; */
+        /* background-color:red; */
+        text-align: center;
+        padding: 10px;
+        overflow: scroll;
+    }
+    #name{
+        font-family:'Courier New', Courier, monospace;
+        font-weight: 900;
+        color:black;
+    }
+    
+    #section form{
+        /* background-color: red; */
+        padding:10px;
+    }
+    
+    #section input{
+        width:100%;
+        border:1px solid blue;
+        margin-bottom: 20px;
+    }
+    
+    form p{
+        /* font-size:100px; */
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    form button{
+        width:50%;
+        background-color: green; 
+        padding:5px 10px;
+        border-radius: 5px;
+        color:whitesmoke;
+        border:1px solid black;
+        cursor: pointer;
+    }
+    #logout{
+        background-color:  rgb(196, 234, 196);
+        padding:5px 10px;
+        margin-left:10px;
+        text-align: center;
+        border:1px solid black;
+        color:red;
+    }
+
+    #nav{
+        font-size:15px;
+        font-weight: bold;
+    }
+
+    .div-bg{
+        background-color:  rgb(16, 16, 16);
+        border:1px solid white;
+    }
+    .foot{
+        margin-top:10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: yellow;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        background-color: green;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+        background-color:brown;
+    }
+    #form-field{
+        position:relative;
+        margin:5% 25%;
+        background-color:darkolivegreen;
+        text-align: center;
+        padding: 0px;
+        display:flex;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height:1000px;
+    }
+    #form-field img{
+        width:100%;
+        height:1000px;
+        position: absolute;
+        opacity:0.2;
+    }
+    #section{
+        position:absolute;
+        width:80%;
+        height:80%;
+        /* background-color:red; */
+        text-align: center;
+        padding: 10px;
+        overflow: scroll;
+    }
+    #name{
+        font-size:50px;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: 900;
+        color:white;
+    }
+    
+    #section form{
+        /* background-color: blue; */
+        height:100%;
+        padding:10px;
+        justify-content: space-evenly;
+        font-size: 100px;
+    }
+    
+    #section input{
+        width:80%;
+        height:10%;
+        border:1px solid blue;
+        /* margin-top: 0px; */
+        margin-bottom: 20px;
+    }
+    
+    form p{
+        /* font-size:100px; */
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    form button{
+        position: relative;
+        width:50%;
+        height:10%;
+        background-color: green; 
+        padding:5px 10px;
+        border-radius: 5px;
+        color:whitesmoke;
+        border:1px solid black;
+        cursor: pointer;
+        font-size:50%;
+    }
+    #logout{
+        background-color: rgb(243, 7, 7);
+        padding:5px 10px;
+        margin-left:10px;
+        text-align: center;
+        border:1px solid black;
+        color:white;
+    }
+
+    #nav{
+        font-size:15px;
+        font-weight: bold;
+    }
+    #AEESSUI {
+        font-size:50px;
+        color: green;
+        border: 1px solid white;
+        padding: 3px 5px 3px 5px;
+        font-weight: bold;
+    }
+    #aee_logo{
+        position: relative;
+        max-height:200px;
+        float: left;
+    }
+    #logo_word{
+        position: absolute;
+        top:140px;
+        font-size:40px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    footer.mt-10 div.pad-10{
+        padding:0px 30px;
+    }
+    footer.mt-10 div.pad-10 span,h2,p,h3,form #answer{
+        font-size: 60px;
+    }
+    footer.mt-10 div.pad-10 form input{
+        height:40px;
+        width:50%;
+        margin-bottom:30px;
+        padding: 10px;
+    }
+    div.foot div p{
+        font-size:40px;
+    }
+}
+
+
+
+
+
