@@ -1,13 +1,13 @@
-
-// let input = document.getElementById('input');
-let div = document.querySelectorAll('div');
-div.forEach(divg1 => {
-    let p = Array.from((divg1.getElementsByTagName('p').getElementsByTagName('a')));
-    for (let i = 0; i < p.length; i++){
-        ul.innerHTML += '<li>' + div[i] + '</li>'; 
-
+function active(option){
+    let a_base = document.querySelector('#a_base');
+    let a_form = document.querySelector('#a_form');
+    if (option == "base"){
+        a_base.style.backgroundColor = 'green';
+        a_form.style.backgroundColor = 'gray';
     }
-})
+    else{
+        a_base.style.backgroundColor = 'gray';
+        a_form.style.backgroundColor = 'green';
+    }
 
-   
-
+}

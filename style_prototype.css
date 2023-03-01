@@ -408,6 +408,36 @@
     .bg-none{
         background-color: none;
     }
+    .back-to-top{
+        position: sticky;
+        bottom:20px;
+        margin-right:10px;
+        float:right;
+        background-color: red;
+        background-color: rgb(103, 156, 177);
+        border-radius: 5px;
+    }
+    .back-to-top a{
+        padding:10px 20px;
+        background-color: rgb(103, 156, 177);
+        border-radius: 5px;
+        border:1px solid black;
+    }
+    .back-to-top{
+        position: sticky;
+        bottom:20px;
+        margin-right:10px;
+        float:right;
+        background-color: red;
+        background-color: rgb(103, 156, 177);
+        border-radius: 5px;
+    }
+    .back-to-top a{
+        padding:10px 20px;
+        background-color: rgb(103, 156, 177);
+        border-radius: 5px;
+        border:1px solid black;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -439,6 +469,9 @@
         background-color:aliceblue;
         margin-top:20px;
         margin-bottom:100px;
+        margin-left:5%;
+        margin-right:5%;
+
     }
     .content{
         position: relative;

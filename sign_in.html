@@ -5,13 +5,14 @@
         <meta name="viewport" content="initial-scale=1, width=device-width">
         <title>AEESSUI: Sign In</title>
         <link rel="icon" type="image/x-icon" href="AEE.jpeg">
+        <script defer src="main.js"></script>
         <link rel="stylesheet" href="style_prototype.css">
         <link rel="stylesheet" href="layout.css">
         <link rel="stylesheet" href="sign_in.css">
     </head>
 
     <body>
-        <div style="background-color:none;">
+        <div id="scroll-div">
             <header class="content">
                 <ul>
                     <li>
@@ -42,6 +43,7 @@
                                 </ul>
                             </nav >
                         </span>
+                        
 
                         <!-- <nav style="float:right;">
                             <ul id="nav">
@@ -53,6 +55,10 @@
                 </ul>
             </header>
 
+            <div id="options">
+                <p class="default-mar-pad fb-40"><a id="a_form" onclick="active('form')" href="#form-field" >ol</a></p>
+                <p class="default-mar-pad fb-40"><a id="a_base" onclick="active('base')" href="#base" >ol</a></p>
+            </div>
             <div id="form-field">           
                 <img src="AEE.jpeg">
                 <div id="section">
@@ -67,7 +73,7 @@
                 </div>
             </div>
 
-            <footer class="mt-10">
+            <footer id="base" class="mt-10">
                 <div class="div-bg pad-10">
                     <span class="float-right div-bg">Count Down</span>
                     <h2>Weekly Visitor's Welcome Trivia!</h2>
