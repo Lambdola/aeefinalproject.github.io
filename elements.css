@@ -1,7 +1,11 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    /* red */
     body{
-        background-color: red;
+        background-color:aliceblue;
+    }
+    ul{
+        border:none;
     }
     #test ul{
         overflow:scroll;
@@ -14,41 +18,77 @@
     #nav-links-1 li{
         display: inline;
         /* background-color: red; */
-        border-right:1px solid green;
-        border-left:1px solid green;
+        border-right:1px solid white;
+        border-left:1px solid white;
         padding: 1px 10px;
         font-size: 20px;
     }
     #nav-links-2 li{
         display: inline;
         /* background-color: red; */
-        border-right:1px solid green;
-        border-left:1px solid green;
+        border-right:1px solid white;
+        border-left:1px solid white;
         padding: 1px 10px;
         font-size: 15px;
     }
     li a{
         padding:5px 10px;
     }
+    [id*='nav-links-']{
+        background-color:  rgb(16, 16, 16);
+    }
+     [id*='nav-links-'] li a{
+        color:white;
+    }
     
     [id*='nav-links-'] a:hover{
         background-color: #ddd;
+        color:black
     }
     footer{
         display:none;
+        /* visibility: hidden; */
     }
+    #sec-foot{
+        background-color:  rgb(16, 16, 16);
+        padding:10px;
+        margin-top: 20px;
+    }
+    .foot{
+        margin-top: 0;
+        font-size:20px;
+    }
+    #sec-foot a{
+        color:white;
+        padding: 10px;
+    }
+    .blr{
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        /* margin: 30px; */
+        /* background-color: red; */
+    }
+    .align-right{
+        text-align: right;
+        /* background-color: red; */
+    }
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    
+    /* orange */
     body{
         background-color:aliceblue;
     }
-    #a_hamburger{
-        display:none;
-        /* visibility: hidden; */
+    /* #a_hamburger{
+        display: none;
+    } */
+    main .main{
+        background-color:rgb(196, 234, 196);
     }
-    ul{
+    .foot ul{
         border:none;
     }
     #nav-links-1 li{
@@ -81,25 +121,54 @@
         background-color: #ddd;
         color:black;
     }
+    #sec-foot{
+        display: none;
+    }
+    .align-right{
+        text-align: right;
+        /* background-color: red; */
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    /* yellow */
     body{
-        background-color: yellow;
+        background-color:aliceblue;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    /* green */
     body{
-        background-color: green;
+        background-color: aliceblue;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    /* brown */
     body{
-        background-color:brown;
+        background-color:aliceblue;
+        /* margin-right:50%; */
+        /* overflow: auto; */
+    }
+    #row #sec-test li{
+        display: inline;
+    }
+    /* footer{
+        padding:10px 50px;
+    } */
+    /* .foot{
+        margin:20px;
+        padding: 0;
+        font-size:30px;
+    } */
+}
+@media only screen and (min-width:3000px) {
+    body{
+        margin-right:50%;
+        /* overflow: auto; */
     }
 }

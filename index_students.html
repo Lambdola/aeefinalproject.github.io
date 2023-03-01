@@ -4,18 +4,18 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="initial-scale=1, width=device-width">
-        <title>AEESSUI: V-Homepage</title>
+        <title>AEESSUI: S-Homepage</title>
         <link rel="icon" type="image/x-icon" href="AEE.jpeg">
         <!-- <script defer src="main.js"></script> -->
         <link rel="stylesheet" href="style_prototype.css">
     </head>
 
     <body>
-        <div>
+         <div>
             <header class="content">
                 <ul>
                     <li>
-                        <a href="index.html">
+                        <a href="index_students.html">
                             <span id="AEESSUI">
                                 <span>A</span> <span>E</span> <span>E</span> <span>S</span> <span>S</span> <span>U</span> <span>I</span>
                             </span>
@@ -29,32 +29,49 @@
                             <span id="row">
                                 <nav id="sec-test">
                                     <ul>
+                                        <li><a href="trivia_points.html">Trivia Points</a></li>
+                                        <li><a href="courses.html">Courses</a></li>
+                                        <li><a href="dept_results.html">Dept. Results</a></li>
+                                        <li><a href="transcript.html">Transcript</a></li>
                                         <li><a href="abouts.html">Abouts</a></li>
-                                        <li><a id="sec_sign_in" href="sign_in.html">Sign In</a></li>
+                                        <li><a id="sec_sign_in" href="logout.html">Log Out</a></li>
                                     </ul>
                                 </nav >
                             </span>
                             <img id="hamburger" role="button" alt="dropdown." src="dropdown.png">
                             <nav id="test">
                                 <ul>
+                                    <li><a href="trivia_points.html">Trivia Points</a></li>
+                                    <li><a href="courses.html">Courses</a></li>
+                                    <li><a href="dept_results.html">Dept. Results</a></li>
+                                    <li><a href="transcript.html">Transcript</a></li>
                                     <li><a href="abouts.html">Abouts</a></li>
                                     <br>
-                                    <li id="sign_in"><a href="sign_in.html">Sign In</a></li>
+                                    <li id="sign_in"><a href="logout.html">Log Out</a></li>
                                 </ul>
                             </nav >
                         </span>
                     </li>
                 </ul>
-                <input type="text" id="search" onkeyup="search()" placeholder=" Search" autocomplete="off">
+                <input id="search" placeholder=" Search" type="text" autocomplete="off">
                 <ul id="search_ul" style="position: absolute;margin: 10px;"></ul>
+                <div class="bold" id="trivia">
+                    <p class="aee-border default-mar-pad bg-white">TRIVIA</p>
+                    <p>
+                        <span>Q:</span> 
+                        In what year was the department founded?
+                        <br>
+                        <span>A: </span> <input>
+                    </p>
+                </div>
                 <img id="ui_logo" alt="UI logo." src="UI_logo.jpeg">
             </header>
                 
             
             <div id="sub-content">
-                <p class="default-mar-pad" id="environment">E N V I R O N M E N T</p>
-                <hr>
-                <p class="hr">
+                <p class="default-mar-pad">E N V I R O N M E N T</p>
+                <hr> 
+                <p  class="hr">
                     Global Warming &amp; Environmental Pollution
                     <div class="extend_hr">
                         <a id="learn_more">LEARN MORE</a>
@@ -64,7 +81,7 @@
         
                 <p class="hr">
                     The latest from AEESSUI News
-                    <div class="extend_hr">
+                    <div class=" extend_hr">
                         <p class="div-bg">I M A G E</p>
                     </div>
                 </p>
@@ -88,19 +105,19 @@
                 </div>
 
                 <div>
-                    <div class="info">
+                    <div id="vision" class="info">
                         <p class="bold">VISION</p>
                         <div class="aee-border info-child">
-                            <p>To achieve and sustain self-sufficiency in food and fibre production theough <b>Engineering</b></p>
+                            <p><a>To achieve and sustain self-sufficiency in food and fibre production theough <b>Engineering</b></a></p>
                         </div>
                     </div>
-                    <div class="info">
+                    <div id="mission" class="info">
                         <p class="bold">MISSION</p>
                         <div class="aee-border info-child">
                             <p>The mission of the Department is to provide educaton in the application of basic engineering principles for the production, design and utilization of agricultural and natural resources for self-sufficiency.</p>
                         </div>
                     </div>
-                    <div class="info">
+                    <div id="brief_history" class="info">
                         <p class="bold">BRIEF HISTORY</p>
                         <div class="aee-border info-child">
                             <p>The Department of Agricultural and Environmental Engineering ... </p>
@@ -131,6 +148,7 @@
                             <p>The objectives of the programme in Agricultural and Environmental Engineering are:</p>
                             <div id="objectives">
                                 <p>(a) To pro</p>
+                                <p id="ola"><a>ola</a></p>
                                 <p>(b) To pro</p>
                                 <p>(c) To pro</p>
                                 <p>(d) To pro</p>
@@ -160,7 +178,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="foot">
+                <div id="foot" class="foot">
                     <div class="div-bg fb-49 title">
                         <P>UNIVERSITY OF IBADAN</P>
                     </div>
@@ -169,10 +187,11 @@
                     </div>
                 </div>
             </footer>
-
+            
             <div class="back-to-top"> 
                 <a href="#top"></a>
             </div>
+           
         </div>
     </body>
 </html>

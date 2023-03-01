@@ -1,12 +1,24 @@
+
+
 table{
-    color:red;
-    /* display: flex; */
+    /* background-color: bisque; */
+    border-collapse: collapse;
+    width:100%;
 }
 
-
+thead{
+    background-color: green;
+    color:white;
+    /* font-size: 20px; */
+}
 th, td{ 
-    padding:0% 20%;
+    text-align: left;
+    padding: 8px;
 }
-tr:nth-child(even){
+
+tbody tr:nth-child(even){
     background-color: #f2f2f2;
+}
+tbody tr:nth-child(odd){
+    background-color:rgb(196, 234, 196);
 }

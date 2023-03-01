@@ -1,16 +1,17 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    /* red */
     body{
-        background-color: red;
+        background-color:aliceblue;
     }
-    li{
-        display:inline;
+    #test li{
+        margin-bottom:20px;
     }
     
     #form-field{
         position:relative;
-        margin:25%;
-        background-color:darkolivegreen;
+        margin:10%;
+        background-color:aliceblue;
         text-align: center;
         padding: 0px;
         display:flex;
@@ -33,10 +34,15 @@
         position:relative;
         overflow: hidden;
     }
+
+    #section p, #section form{
+        text-align:center;
+        /* color:green; */
+    }
     #name{
         font-family:'Courier New', Courier, monospace;
         font-weight: 900;
-        color:white;
+        color:black;
     }
     
     /* form{
@@ -44,20 +50,20 @@
     } */
     
     form input{
-        /* border:1px solid blue; */
+        width:100%;
+        border:1px solid blue;
         margin-bottom: 20px;
-        box-shadow: 0px 0px 10px #ddd;
     }
     
-    form p{
+    #section form p{
         padding: 0px;
         margin: 0px;
     }
     
-    form button{
+    .button{
         background-color: green; 
         padding:5px 10px;
-        border-radius: 5px;
+        border-radius:10px;
         color:whitesmoke;
         border:1px solid black;
         cursor: pointer;
@@ -71,25 +77,39 @@
         color:white;
     }
 
+    div.pad-10 form input{
+        width:90%;
+        margin-left:5px;
+        width:70%;
+        /* float:left; */
+    }
+    #answer{
+        /* color:red; */
+        float:left;
+    }
     #nav{
         font-size:15px;
+        /* margin-left:20%; */
         font-weight: bold;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    /* orange */
     body{
         background-color:aliceblue;
     }
-    li{
-        display:inline;
+
+    #test li{
+        margin-bottom:20px;
     }
     
     #form-field{
         position:relative;
         margin:5% 25%;
-        background-color: aliceblue;
+        /* background-color: aliceblue; */
+        /* background-color: red; */
         text-align: center;
         padding: 0px;
         display:flex;
@@ -113,19 +133,25 @@
         /* background-color:red; */
         text-align: center;
         padding: 10px;
-        overflow: scroll;
+        /* overflow: scroll; */
+    }
+
+    #section p, #section form{
+        text-align:center;
+        /* color:green; */
     }
     #name{
         font-family:'Courier New', Courier, monospace;
-        font-weight: 900;
-        color:black;
+        font-weight: 900; width:100%;
+        /* border:1px solid blue; */
+        margin-bottom: 20px;
     }
-    
-    #section form{
-        /* background-color: red; */
-        padding:10px;
+    div.pad-10 form{
+        background-color:none;
     }
-    
+    div.pad-10 form input{
+        width:80%;
+    }
     #section input{
         width:100%;
         border:1px solid blue;
@@ -138,22 +164,23 @@
         margin: 0px;
     }
     
-    form button{
+    .button{
         width:50%;
         background-color: green; 
         padding:5px 10px;
-        border-radius: 5px;
+        border-radius:10px;
         color:whitesmoke;
         border:1px solid black;
         cursor: pointer;
+        font-weight: bold;
     }
     #logout{
-        background-color:  rgb(196, 234, 196);
+        background-color:  rgb(243, 7, 7);
         padding:5px 10px;
         margin-left:10px;
         text-align: center;
         border:1px solid black;
-        color:red;
+        color:white;
     }
 
     #nav{
@@ -172,27 +199,38 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    /* yellow */
     body{
-        background-color: yellow;
+        background-color:aliceblue;
+    }
+    #form-field{
+        position:relative;
+        margin:1% 25%;
+        width:50%;
+        background-color:aliceblue;
+        text-align: center;
+        padding: 0px;
+        display:flex;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        /* height:1000px; */
+        height: auto;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    /* green */
     body{
-        background-color: green;
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    body{
-        background-color:brown;
+        background-color:aliceblue;
     }
     #form-field{
         position:relative;
-        margin:5% 25%;
-        background-color:darkolivegreen;
+        margin:5% 10%;
+        width:80%;
+        background-color:aliceblue;
+        /* background-color: red; */
         text-align: center;
         padding: 0px;
         display:flex;
@@ -210,17 +248,18 @@
     #section{
         position:absolute;
         width:80%;
-        height:80%;
+        height:inherit;
         /* background-color:red; */
         text-align: center;
         padding: 10px;
-        overflow: scroll;
+        /* overflow: scroll; */
     }
     #name{
         font-size:50px;
         font-family:'Courier New', Courier, monospace;
         font-weight: 900;
-        color:white;
+        color:black;
+        margin-bottom:100px;
     }
     
     #section form{
@@ -234,7 +273,8 @@
     #section input{
         width:80%;
         height:10%;
-        border:1px solid blue;
+        border:3px solid blue;
+        font-size:40px;
         /* margin-top: 0px; */
         margin-bottom: 20px;
     }
@@ -245,13 +285,13 @@
         margin: 0px;
     }
     
-    form button{
+    .button{
         position: relative;
         width:50%;
         height:10%;
         background-color: green; 
         padding:5px 10px;
-        border-radius: 5px;
+        border-radius: 10px;
         color:whitesmoke;
         border:1px solid black;
         cursor: pointer;
@@ -303,6 +343,151 @@
     }
     div.foot div p{
         font-size:40px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+        margin-right:50%;
+    }
+    /* brown */
+    body{
+        background-color:aliceblue;
+    }
+
+    #sec-test li{
+        display:inline;
+    }
+    #form-field{
+        position:relative;
+        margin:5% 10%;
+        width:80%;
+        background-color:aliceblue;
+        /* background-color: red; */
+        text-align: center;
+        padding: 0px;
+        display:flex;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height:1000px;
+    }
+    #form-field img{
+        width:100%;
+        height:1000px;
+        position: absolute;
+        opacity:0.2;
+    }
+    #section{
+        position:absolute;
+        width:80%;
+        height:inherit;
+        /* background-color:red; */
+        text-align: center;
+        padding: 10px;
+        /* overflow: scroll; */
+    }
+    #name{
+        font-size:50px;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: 900;
+        color:black;
+        margin-bottom:100px;
+    }
+    
+    #section form{
+        /* background-color: blue; */
+        height:100%;
+        padding:10px;
+        justify-content: space-evenly;
+        font-size: 100px;
+    }
+    
+    #section input{
+        width:80%;
+        height:10%;
+        border:3px solid blue;
+        font-size:50px;
+        /* margin-top: 0px; */
+        margin-bottom: 20px;
+    }
+    #section input:focus{
+        border:1px solid red;
+    }
+    
+    form p{
+        /* font-size:100px; */
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .button{
+        position: relative;
+        width:50%;
+        height:10%;
+        background-color: green; 
+        padding:5px 10px;
+        border-radius: 15px;
+        color:whitesmoke;
+        border:1px solid black;
+        cursor: pointer;
+        font-size:50%;
+    }
+    #logout{
+        background-color: rgb(243, 7, 7);
+        padding:5px 10px;
+        margin-left:10px;
+        text-align: center;
+        border:1px solid black;
+        color:white;
+    }
+
+    #nav{
+        font-size:15px;
+        font-weight: bold;
+    }
+    #AEESSUI {
+        font-size:50px;
+        color: green;
+        border: 1px solid white;
+        padding: 3px 5px 3px 5px;
+        font-weight: bold;
+    }
+    #aee_logo{
+        position: relative;
+        max-height:200px;
+        float: left;
+    }
+    #logo_word{
+        position: absolute;
+        top:140px;
+        font-size:40px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    footer.mt-10 div.pad-10{
+        padding:0px 30px;
+    }
+    footer.mt-10 div.pad-10 span,h2,p,h3,form #answer{
+        font-size: 60px;
+    }
+    footer.mt-10 div.pad-10 form input{
+        height:40px;
+        width:50%;
+        margin-bottom:30px;
+        padding: 10px;
+    }
+    div.foot div p{
+        font-size:40px;
+    }
+}
+
+@media only screen and (min-width:3000px) {
+    body{
+        background-color:aliceblue;
+        margin:0% 25%;
+        /* overflow: auto; */
     }
 }
 
