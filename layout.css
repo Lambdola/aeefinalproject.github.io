@@ -21,7 +21,8 @@
         background-color:rgb(196, 234, 196);
         text-align:left;
         margin-left:20px;
-        height:100px;
+        height:200px;
+        overflow: auto;
         padding:5px;
     }
 
@@ -70,9 +71,12 @@
         background-color:  rgb(16, 16, 16);
         border:1px solid white;
     }
-    #answer{
-        font-weight: bold;
-        font-size:20px;
+    #sign_in_footer, #answer{
+        font-size:15px;
+    }
+    #sign_in_footer form{
+        position: relative;
+        margin:10px 0px 10px;
     }
     .title{
         border:none;

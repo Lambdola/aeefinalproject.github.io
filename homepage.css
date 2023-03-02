@@ -1,0 +1,197 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #AEESSUI{
+        font-size: larger;
+    }
+    #aee_logo{
+        max-height:80px;
+    }
+    #logo_word{
+        top:61px;
+        font-size: larger;
+    }
+    #hamburger{
+        max-height: 20px;
+    }
+    #test a{
+        font-size: 20px;
+    }
+    #search{
+        padding: 5px;
+        height:20px;
+    }
+    #search::placeholder{
+        color:gray;
+        font-size:20px;
+    }
+    #trivia{
+        font-size:25px;
+    }
+    #environment{
+        font-size: larger;
+    }
+    hr{
+        width:40%;
+    }
+    .hr{
+        font-size:25px;
+    }
+    #learn_more, #feature_archive{
+        font-size:17px;
+    }
+    #the_vital_parts, #a_closer_look{
+        margin-top:5px;
+        font-size: larger;
+    }
+    .info p{
+        /* color:red; */
+        font-size: larger;
+    }
+    #philosophy li, #objectives p{
+        font-size:19px;
+        color:purple;
+    }
+    .h3{
+        font-size:30px;
+    }
+    footer #left{
+        flex-basis:50%;
+    }
+    footer #right{
+        flex-basis:40%;
+    }
+    #right a{
+        border:5px solid transparent;
+        font-size:20px;
+    }
+    #right a:hover{
+        border:5px solid rgb(251, 250, 250);
+    }
+    .foot p{
+        font-size:larger;
+    }
+    #form-field{
+        margin-top:30px;
+    }
+    #name, #username, #password{
+        font-size: larger;
+    }
+    #section input{
+        /* margin-bottom:30px; */
+        height:30px;
+    }
+    #section input::placeholder{
+        font-size:20px;
+    }
+    .button{
+        font-size:20px;
+    }
+    #base{
+        margin-top:30px;
+    }
+    #sign_in_footer, #answer{
+        font-size:25px;
+    }
+    #sign_in_footer form{
+        position: relative;
+        margin:10px 0px 10px;
+    }
+    #about_AEESSUI{
+        /* margin-top:90px; */
+        padding:10px;
+        font-size:30px;
+        border:1px solid green;
+    }
+    .contents #about_search, .contents #close {
+        text-decoration: none;
+        /* color:red; */
+        font-size:30px;
+    }
+    div.fs-15{
+        display: flex;
+        margin-top: 50px;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        text-align:center;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+        border-top:2px solid black;
+        padding-top:30px;
+    }
+    div.fs-15 a{
+        padding:10px;
+        text-align:center;
+        border:3px solid transparent;
+    }
+    div.fs-15 a:hover{
+        border:3px solid black;
+    }
+    div.fs-15 #about_left{
+        margin-top:50px;
+        flex-basis:40%;
+        font-size: normal;
+        font-size:30px;
+    }
+    /* div.fs-15 #about_left a{
+        font-size:30px;
+    } */
+    div.fs-15 #about_right{
+        flex-basis:50%;
+        font-size:25px;
+    }
+    #elements{
+        font-size:larger;
+        border-top:2px solid black;
+        padding-top:30px;
+    }
+    .sub-elements a:hover {
+        font-size:25px;
+    }
+    h1.bb{
+        font-size:40px;
+    }
+    .main{
+        height:auto;
+        /* overflow: auto; */
+    }
+    div.main p{
+        font-size:25px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    div.fs-15 a{
+        font-size: 50px;
+        padding:20px;
+    }
+    div.fs-15 #about_left{
+        flex-basis:100%;
+    }
+    div.fs-15 #about_right{
+        flex-basis:100%;
+    }
+    #elements{
+        font-size:40px;
+        border-top:2px solid black;
+        padding-top:50px;
+    }
+   
+}
+
+@media only screen and (min-width:3000px) {
+}
+
+
+
+
+

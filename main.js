@@ -9,5 +9,9 @@ function active(option){
         a_base.style.backgroundColor = 'gray';
         a_form.style.backgroundColor = 'green';
     }
+}
 
+function highlight(option){
+    let title = document.getElementById(option).getElementsByTagName('h1');
+    title.style.backgroundColor = 'yellow';
 }

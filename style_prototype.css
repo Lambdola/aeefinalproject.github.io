@@ -1,6 +1,8 @@
-
+.yellow{
+    background-color: yellow;
+}
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) and (orientation: portrait) {
+@media only screen and (max-width: 600px) {
     #row{
         display:none;
     }
@@ -1062,7 +1064,7 @@
         overflow: auto;
         margin-left:5%;
         /* margin-right:50%; */
-        width:80%;
+        width:85%;
         margin-top: -20px;
         padding:30px;
         background-color:white;
@@ -1176,7 +1178,7 @@
         overflow: auto;
         margin-left:5%;
         /* margin-right:50%; */
-        width:35%;
+        width:40%;
         margin-top: -20px;
         padding:30px;
         background-color:white;

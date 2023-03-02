@@ -1,17 +1,103 @@
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width:600px) {
     /* red */
     body{
-        background-color:red;
+        background-color:aliceblue;
+    }
+    #help_header{
+        color:green;
+        background-color:rgb(229, 225, 225);
+        padding:20px 20px;
+        border:3px solid green;
+    }
+    #help_AEESSUI{
+        color:green;
+        border:none;
+        font-size: 20px;
+        padding:0px;
+        font-weight: bold;
+    }
+    #help_go_to_homepage{
+        color:white;
+        font-size: 14px;
+        font-weight: bold;
+        float:right;
+        cursor:pointer;
+        text-decoration: none;
+    }
+    #home_logo{
+        max-height:20px;
+    }
+    #help_form input{
+        border:1px solid black;
+        padding:5px;
+        font-size:15px;
     }
 
     .body {
         padding: 10px;
     }
-    
-    .section:hover {
+    .center{
+        text-align: center;
+    }
+    .flex{
+        display: flex;
+        flex-basis: 100%;
+        flex-wrap:wrap;
+        /* background-color: red; */
+    }
+    .bold{
+        font-weight:bold;
+    }
+    Article{
+        background-color:none;
+        margin-top: -10px;
+    }
+    h3{
+        padding:10px;
+        background-color:rgb(153, 216, 44);
+    }
+    hr{
+        width:100%;
+    }
+    /* .section:hover {
         padding: 5px 10px;
         background-color:rgb(188, 221, 188);
+    } */
+    .section{
+        padding: 5px 10px;
+        margin-top:10px;
+        /* background-color: red; */
+    }
+    .section-l{
+        /* position:relative; */
+        background-color:none;
+        flex-basis:100%;
+        margin-bottom:10px;
+    }
+    .section-r{
+        background-color:none;
+        flex-basis:100%;
+    }
+    .section-cell{
+        border:1px solid green;
+        margin-top:20px;
+        padding: 0px 10px;
+        border-radius: 5px;
+        height:100px;
+        overflow: auto;
+    }
+    .section-cell a{
+        text-decoration: none;
+        color:black;
+        font-size: 20px;
+    }
+    .section:hover {
+        /* padding: 0px 0px 20px; */
+        /* background-color: #bac5c3; */
+        border-radius: 10px;
     }
     .contents {
         background-color: none;
@@ -23,7 +109,7 @@
         justify-content: space-evenly;
     }
     
-    #AEESSUI {
+    #about_AEESSUI {
         color: green;
         border: 1px solid green;
         padding: 3px 5px 3px 5px;
@@ -49,7 +135,7 @@
         position: absolute;
     }
     
-    .contents #search {
+    .contents #about_search {
         /* float: right; */
         background-color:  rgb(196, 234, 196);
         color:  black;
@@ -147,7 +233,59 @@
     body{
         background-color:aliceblue;
     }
-
+    .center{
+        text-align: center;
+    }
+    #help_header{
+        color:green;
+        background-color:rgb(229, 225, 225);
+        padding:20px 20px;
+        border:3px solid green;
+    }
+    #help_AEESSUI{
+        color:green;
+        border:none;
+        font-size:30px;
+        padding:0px;
+        font-weight: bold;
+    }
+    #help_get_all{
+        font-size:25px;
+        font-weight:bold;
+    }
+    #help_go_to_homepage{
+        color:white;
+        font-size: 14px;
+        font-weight: bold;
+        float:right;
+        cursor:pointer;
+        text-decoration: none;
+    }
+    #help_form input{
+        border:1px solid black;
+        height:40px;
+        padding:0px;
+        font-size:17px;
+        width:50%;
+    }
+    #help_form input:focus{
+        border:1px solid black;
+        height:40px;
+        padding:5px;
+        font-size:25px;
+        width:50%;
+    }
+    .flex{
+        margin-bottom:20px;
+    }
+    .section-l p.center{
+        font-size:30px;
+    }
+    .section-l a{
+        text-decoration: none;
+        color:black;
+        font-size:27px;
+    }
     .body {
         padding: 10px;
     }
@@ -160,14 +298,22 @@
         position:relative;
         background-color:none;
         width:65%;
+        height:1200px;
+        overflow: auto;
     }
     .section-r{
         position:absolute;
-        top:120px;
-        background-color:none;
+        top:300px;
+        background-color:transparent;
         overflow:auto;
         margin-left: 70%;
+        width:24%;
         height:400px;
+        border:1px solid green;
+        border-radius:5px;
+    }
+    .section-r{
+        font-size:larger;
     }
     .section-cell{
         border:1px solid green;
@@ -175,12 +321,22 @@
         padding: 20px 10px;
         border-radius: 5px;
     }
+    .section-cell:last-child{
+        border:1px solid red;
+        margin-bottom: 10px;
+    }
     .section:hover {
         /* padding: 5px 10px; */
         background-color: #bac5c3;
         border-radius: 10px;
     }
-    .contents {
+    .align-left{
+        text-align:left;
+    }
+    Article:last-child{
+        border-bottom:3px solid red;
+    }
+    .contents{
         background-color: none;
         height: auto;
         margin-bottom: 10px;
@@ -210,7 +366,7 @@
         visibility: hidden;
     }
     
-    .contents #search {
+    .contents #about_search {
         float: right;
         background-color:  rgb(196, 234, 196);
         color: black;
@@ -236,6 +392,7 @@
         color: white;
         cursor: pointer;
         text-decoration: none;
+        border: 1px solid transparent;
     }
     
     .fs-15 a:hover {

@@ -7,64 +7,94 @@
         <link rel="icon" type="image/x-icon" href="AEE.jpeg">
         <script defer src="main.js"></script>
         <link rel="stylesheet" href="style_modal.css">
+        <link rel="stylesheet" href="homepage.css">
     </head>
-    <body style="background-color:rgb(215, 230, 215);">
+    <body>
         <header>
-            <div style="color:white;background-color: green;padding:20px 20px;">
-                <span id="AEESSUI" style="color:white;border:none;font-size: 20px;padding:0px;">
+            <div id="help_header">
+                <span id="help_AEESSUI">
                     <span>A</span> <span>E</span> <span>E</span> <span>S</span> <span>S</span> <span>U</span> <span>I</span>
                 </span>
-                <a style="color:white;font-size: 10px;font-weight: bold;float:right;cursor:pointer;" href="index.html">Go to Homepage</a>
-                <p style="font-size: 10px;">Get all the answers to your concerns here</p>
-                <form >
+                <a id="help_go_to_homepage" href="index.html"><img id="home_logo" alt="Homepage." src="home_logo.png"></im></a>
+                <p id="help_get_all">Get all the answers to your concerns here</p>
+                <form id="help_form">
                     <input id="input" onkeyup="search()" name="query" placeholder="  Search articles" type="text" autocomplete="off">
                     <ul id="help_ul" style="position: absolute;color:black;z-index: 1;"></ul>
-                    <a style="float:right;background-color: white;color:green;padding:5px 10px;font-size: 10px;font-weight: bold;border:1px solid green;border-radius: 5px;cursor:pointer;">Report Issue</a>
+                    <!-- <a style="float:right;background-color: white;color:green;padding:5px 10px;font-size: 10px;font-weight: bold;border:1px solid green;border-radius: 5px;cursor:pointer;">Report Issue</a> -->
                 </form>
             </div>
         </header>
-        
-        <div class="section section-l">
-            <p style="padding:0px 30px">Knowledge Base / AEESSUI </p>
-            <div class="section-cell">
-                <p id="p1"><a href="#p1">hello1</a></p>
+        <div class="flex">
+            <div class="section section-l">
+                <p class="center bold">Knowledge Base / AEESSUI </p>
+                <div class="section-cell">
+                    <p id="p1"><a href="#p1">hello1</a></p>
+                </div>
+                <div class="section-cell">
+                    <p id="p2"><a href="#p2">hello2</a></p>
+                </div>
+                <div class="section-cell">
+                    <p id="p3"><a href="#p3">hello3</a></p>
+                </div>
+                <div class="section-cell">
+                    <p id="p4"><a href="#p4">hello4</a></p>
+                </div>
+                <div class="section-cell">
+                    <p id="p5"><a href="#p5">hello5</a></p>
+                </div>
+                <div class="section-cell">
+                    <p id="p6"><a href="#p6">hello6</a></p>
+                </div>
+                <div class="section-cell">
+                    <p id="p6"><a href="#p6">hello6</a></p>
+                </div>
+                <div class="section-cell">
+                    <p id="p6"><a href="#p6">hello6</a></p>
+                </div>
+                <div class="section-cell">
+                    <p id="p6"><a href="#p6">hello6</a></p>
+                </div>
+                <div class="section-cell">
+                    <p id="p6"><a href="#p6">hello6</a></p>
+                </div>
+                <div class="section-cell">
+                    <p id="p6"><a href="#p6">hello6</a></p>
+                </div>
+                <div class="section-cell">
+                    <p id="p6"><a href="#p6">hello6</a></p>
+                </div>
+                <div class="section-cell">
+                    <p id="p6"><a href="#p6">hello6</a></p>
+                </div>
+                <div class="section-cell">
+                    <p id="p6"><a href="#p6">hello6</a></p>
+                </div>
             </div>
-            <div class="section-cell">
-                <p id="p2"><a href="#p2">hello2</a></p>
-            </div>
-            <div class="section-cell">
-                <p id="p3"><a href="#p3">hello3</a></p>
-            </div>
-            <div class="section-cell">
-                <p id="p4"><a href="#p4">hello4</a></p>
-            </div>
-            <div class="section-cell">
-                <p id="p5"><a href="#p5">hello5</a></p>
-            </div>
-            <div class="section-cell">
-                <p id="p6"><a href="#p6">hello6</a></p>
-            </div>
+
+
+            <div class="section section-r">
+                <Article>
+                    <h3>Popular Articles</h3>
+                    <p>HELLO</p>
+                    <p>HELLO</p>
+                    <p>HELLO</p>
+                </Article>
+                <Article>
+                    <h3>Recent Articles</h3>
+                    <a>HELLO</a>
+                    <p>HELLO</p>
+                    <p>HELLO</p>
+                    <p>HELLO</p>
+                    <a>Hello</a>
+                    <p>HELLO</p>
+                    <p>HELLO</p>
+                    <p>HELLO</p>
+                </Article>
             </div>
         </div>
 
-        <div class="section section-r">
-            <Article style="background-color: none;margin-top: -10px;">
-                <h3>Popular Articles</h3>
-                <p>HELLO</p>
-                <p>HELLO</p>
-                <p>HELLO</p>
-            </Article>
-            <Article style="background-color:none;margin-top: -10px;">
-                <h3>Recent Articles</h3>
-                <a>Hello</a>
-                <p>HELLO</p>
-                <p>HELLO</p>
-                <p>HELLO</p>
-                <a>Hello</a>
-                <p>HELLO</p>
-                <p>HELLO</p>
-                <p>HELLO</p>
-            </Article>
-        </div>
+        <footer>
+            <h1 class="center" style="background-color: red;">inherit academics footer</h1>
+        </footer>
     </body>
 </html>

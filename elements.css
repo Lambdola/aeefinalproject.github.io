@@ -1,8 +1,8 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (min-width:200px) {
+@media only screen and (max-width: 600px) {
     /* red */
     body{
-        background-color:red;
+        background-color:aliceblue;
     }
     ul{
         border:none;
@@ -71,6 +71,17 @@
     .align-right{
         text-align: right;
         /* background-color: red; */
+    }
+    div.main p{
+        padding:0;
+        margin:0;
+    }
+    h1.bb{
+        font-size:25px;
+    }
+    .main{
+        height:auto;
+        /* overflow: auto; */
     }
     
 }
