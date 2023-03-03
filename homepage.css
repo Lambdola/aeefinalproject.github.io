@@ -1,5 +1,28 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width:600px) {
+    #play_your_part{
+        position: absolute;
+        color:white;
+    }
+    #logout_page h1{
+        font-size:20px;
+    }
+    .italics{
+        font-style:oblique;
+        margin-right:10px;
+        /* font-size:10px; */
+    }
+    #recycle{
+        width:80%;
+    }
+    #logout_homepage{
+        position:relative;
+        top:-50px;
+    }
+    #logout_homepage a{
+        /* margin-top: 40px; */
+        color:white;
+    }
 
 }
 
@@ -18,42 +41,85 @@
     #hamburger{
         max-height: 20px;
     }
+    #test li {
+        margin-bottom:10px;
+    }
+    #sec_sign_in, #test #sign_in{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        /* background-color: red; */
+    }
+    #test #v_sign_in{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        /* background-color: red; */
+        background-color:green;
+    }
+    #v_sign_in:hover{
+        background-color:rgb(149, 191, 149);
+    }
+    #test #sign_in a{
+        color:white;
+    }
+    #sec-test #sec_sign_in:hover, #test #sign_in:hover{
+        background-color:rgb(208, 38, 38);
+    }
+
     #test a{
         font-size: 20px;
     }
     #search{
         padding: 5px;
         height:20px;
+        font-size:25px;
+        margin-left:1px;
     }
     #search::placeholder{
         color:gray;
-        font-size:20px;
+        font-size:25px;
+    }
+    #search:focus{
+        width:90%;
+        background-color: black;
+        color:white;
+        padding: 10px;
+        font-size:30px;
     }
     #trivia{
         font-size:25px;
     }
+    #trivia p{
+        margin-top:5px;
+        padding: 10px;
+    }
     #environment{
-        font-size: larger;
+        font-size:30px;
     }
     hr{
-        width:40%;
+        width:50%;
     }
     .hr{
-        font-size:25px;
+        font-size:27px;
     }
     #learn_more, #feature_archive{
-        font-size:17px;
+        padding:5px;
+        font-size:20px;
     }
     #the_vital_parts, #a_closer_look{
         margin-top:5px;
-        font-size: larger;
+        font-size:25px;
     }
+   .footer{
+    margin-top: 220px;
+   }
     .info p{
         /* color:red; */
-        font-size: larger;
+        font-size: 30px;
     }
     #philosophy li, #objectives p{
-        font-size:19px;
+        font-size:20px;
         color:purple;
     }
     .h3{
@@ -82,8 +148,11 @@
         font-size: larger;
     }
     #section input{
-        /* margin-bottom:30px; */
         height:30px;
+        font-size: 25px;
+    }
+    #section input:focus{
+        height:larger;
     }
     #section input::placeholder{
         font-size:20px;
@@ -95,7 +164,17 @@
         margin-top:30px;
     }
     #sign_in_footer, #answer{
+        font-size:30px;
+    }
+    #answer + input{
+        height:20px;
+        padding:5px;
+        width:50%;
         font-size:25px;
+    }
+    #answer + input + input{
+        font-size:30px;
+        font-weight:bold;
     }
     #sign_in_footer form{
         position: relative;
@@ -162,14 +241,128 @@
     div.main p{
         font-size:25px;
     }
+    #play_your_part{
+        position: absolute;
+        color:white;
+    }
+    #play_your_part span{
+        font-style:oblique;
+        margin-right:10px;
+    }
+    #recycle{
+        width:80%;
+    }
+    #logout_homepage{
+        position:relative;
+        top:-80px;
+    }
+    #logout_homepage a{
+        color:white;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 }
 
+@media only screen and (min-width: 992px) {
+   #name{
+    margin-top: 0px;
+    font-size:50px;
+    /* background-color: red; */
+   }
+   #AEESSUI{
+    font-size:40px;
+    }
+    #aee_logo{
+        max-height:200px;
+    }
+    #logo_word{
+        top:160px;
+        font-size:30px;
+    }
+    #hamburger{
+        max-height: 50px;
+    }
+   #section{
+    padding-top:200px;
+   }
+   #test a{ 
+    font-size:30px;
+    margin-bottom:5px;
+   }
+   #section form{
+    margin-top: -70px;
+    /* background-color: red; */
+   }
+   #section form p{
+    font-size:50px;
+    /* background-color: blue; */
+    margin-top:20px;
+    margin-bottom:-50px;
+   }
+   #section form input{
+    padding:10px;
+    font-size:50px;
+    /* background-color: blue; */
+   }
+   #section form input:focus{
+    height:50px;
+    /* padding:10px;
+    font-size:50px; */
+    /* background-color: blue; */
+   }
+   #section form input::placeholder{
+    /* padding:10px; */
+    font-size:45px;
+    /* background-color: blue; */
+   }
+   #section form a{
+    padding:10px;
+    font-size:45px;
+    /* background-color: blue; */
+   }
+   .section:hover {
+        /* padding: 5px 10px; */
+        background-color: #bac5c3;
+        border-radius: 10px;
+    }
+   #base{
+    margin-top:10px;
+   }
+   #help_form input{
+    /* background-color: red; */
+    height:50px;
+    font-size:40px;
+    padding:5px;
+   }
+   #help_form input:focus{
+    border:10px solid green;
+    height:50px;
+    font-size:40px;
+    padding:5px;
+   }
+   .flex{
+    font-size:20px;
+   }
+   .flex .section-cell a{
+    font-size:30px;
+   }
+}
+
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    #AEESSUI{
+        font-size:40px;
+    }
+    #aee_logo{
+        max-height:200px;
+    }
+    #logo_word{
+        top:160px;
+        font-size:30px;
+    }
     div.fs-15 a{
         font-size: 50px;
         padding:20px;
@@ -185,10 +378,94 @@
         border-top:2px solid black;
         padding-top:50px;
     }
-   
+    #sec_test #sec_sign_in{
+        background-color: red;
+    }
+    .sub-elements a:hover {
+        font-size:40px;
+    }
+
+    #sec-test li{
+        margin-bottom:5px;
+    }
+    #answer + input{
+        height:30px;
+        padding:5px;
+        width:50%;
+        font-size:30px;
+    }
+    #answer + input + input{
+        display:inline;
+        width:10%;
+        height:auto;
+        padding:5px;
+        font-size:30px;
+        font-weight:bold;
+    }
+    #sub-content{
+        width:75%;
+    }
+    .footer{
+        margin-top:360px;
+    }
 }
 
 @media only screen and (min-width:3000px) {
+    #logo_word{
+        margin-top:18px;
+        /* color:red; */
+        font-size:39px;
+    }
+    #sec-test li a{
+        /* color:red; */
+        font-size:40px;
+    }
+    #the_vital_parts{
+        font-size:50px;
+    }
+    #a_closer_look{
+        font-size: 60px;
+    }
+    /* #sec-test li{
+        margin-bottom:50px;
+    } */
+    #environment{
+        font-size:40px;
+    }
+    .hr{
+        /* color:Red; */
+        font-size:40px;
+    }
+    #learn_more, #feature_archive{
+        /* color:red; */
+        font-size:larger;
+    }
+    #philosophy li, #objectives p{
+        font-size:30px;
+        /* color:red; */
+    }
+    .info p{
+        /* color:red; */
+        font-size: larger;
+    }
+    #sub-content{
+        width:35%;
+    }
+    .back-to-top a{
+        padding:50px;
+    }
+    #search{
+        /* background-color:Red; */
+        height:80px;
+        font-size:50px;
+        margin-left:10px;
+    }
+    #search::placeholder{
+        font-size:50px;
+    }
+    #search:focus{
+        font-size:60px;
+    }
 }
 
 

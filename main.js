@@ -11,7 +11,3 @@ function active(option){
     }
 }
 
-function highlight(option){
-    let title = document.getElementById(option).getElementsByTagName('h1');
-    title.style.backgroundColor = 'yellow';
-}

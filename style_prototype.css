@@ -1,5 +1,8 @@
-.yellow{
-    background-color: yellow;
+.flex-container{
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap:wrap;
+    justify-content: center;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -63,10 +66,13 @@
         font-weight: bold;
     }
 
-    #sign_in{
+    #sign_in, #v_sign_in{
         background-color: green;
         color:white;
         border-radius: 5px;
+    }
+    #v_sign_in:hover{
+        background-color: rgb(149, 191, 149);
     }
 
      #a_hamburger{
@@ -410,21 +416,7 @@
     .bg-none{
         background-color: none;
     }
-    .back-to-top{
-        position: sticky;
-        bottom:20px;
-        margin-right:10px;
-        float:right;
-        background-color: red;
-        background-color: rgb(103, 156, 177);
-        border-radius: 5px;
-    }
-    .back-to-top a{
-        padding:10px 20px;
-        background-color: rgb(103, 156, 177);
-        border-radius: 5px;
-        border:1px solid black;
-    }
+    
     .back-to-top{
         position: sticky;
         bottom:20px;
@@ -514,7 +506,7 @@
         font-weight: bold;
     }
 
-    #sign_in{
+    #v_sign_in{
         background-color: green;
         color:white;
         border-radius: 5px;
@@ -895,7 +887,7 @@
         bottom:20px;
         margin-right:10px;
         float:right;
-        background-color: red;
+        /* background-color: red; */
         background-color: rgb(103, 156, 177);
         border-radius: 5px;
     }
@@ -988,6 +980,9 @@
         margin-top: -5px;
         right:10px;
         display:none;
+    }
+    #v_sign_in{
+        background-color: green;
     }
     #test ul{
         display: block;
@@ -1169,16 +1164,20 @@
 
 @media only screen and (min-width:3000px) {
     body{
-        margin-right:50%;
-        /* overflow: auto; */
+        margin-left:25%;
+        margin-right:25%;
         height: 100%;
+        width:45%;
     }
+    /* body{
+        margin-right:50%;
+    } */
     #sub-content{
         position: absolute;
         overflow: auto;
         margin-left:5%;
         /* margin-right:50%; */
-        width:40%;
+        width:50%;
         margin-top: -20px;
         padding:30px;
         background-color:white;
