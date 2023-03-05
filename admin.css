@@ -1,0 +1,68 @@
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: green;
+        /* margin:5%; */
+        /* width:100%; */
+        /* padding:10px; */
+        /* border-right: 10px solid yellow; */
+        /* text-align: center; */
+        overflow: hidden;
+    }
+    .fb-40{
+        flex-basis: 40%;
+    }
+    .fb-100{
+        flex-basis: 100%;
+    }
+    .align-center{
+        text-align: center;
+    }
+    .default-mar-pad{
+        margin:0;
+        padding: 0;
+    }
+    .flex-container{
+        display:flex;
+        flex-basis:100%;
+        flex-wrap:wrap;
+        justify-content:space-evenly;
+    }
+    header{
+        border:5px solid orange;
+    }
+    .control{
+        flex-basis: 40%;
+        background-color: orange;
+    }
+    .pad-10{
+        padding:10px;
+    }
+    .color-white{
+        color:white;
+    }
+    #aee_logo{
+        max-height:50px;
+        width:auto;
+    }
+    .mt-20{
+        margin-top:20px;
+    }
+    a{
+        cursor: pointer;
+    }
+    #students{
+        position: absolute;
+        background-color: orange;
+        width:auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+}

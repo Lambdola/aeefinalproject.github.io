@@ -95,6 +95,9 @@
         border:1px solid blue;
         margin-bottom: 20px;
     }
+    #submit{
+        display:none;
+    }
     
     #section form p{
         padding: 0px;
@@ -124,9 +127,30 @@
         width:70%;
         /* float:left; */
     }
+    #sign_in_footer{
+        padding:10px;
+    }
     #answer{
-        /* color:red; */
+        color:black;
         float:left;
+        font-size:20px;
+        font-weight: bold;
+    }
+    #send_form{
+        background-color: red;
+        display: flex;
+        justify-content:left;
+        padding:10px 0px 0px 5px;
+        background-color: rgb(229,225,225);
+    }
+    #send{
+        max-height:25px;
+        margin-left:10px;
+        margin-bottom:5px;
+    }
+    #answer + input{
+        width:50%;
+        /* margin-top:-10px; */
     }
     #nav{
         font-size:15px;
@@ -198,6 +222,16 @@
     }
     div.pad-10 form input{
         width:80%;
+    }
+    #submit{
+        text-align: center;
+        padding:10px;
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    #send{
+        display:none;
     }
     #section input{
         width:100%;

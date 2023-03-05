@@ -3,10 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="initial-scale=1, width=device-width">
-        <title>AEESSUI: Post-Graduate Programme</title>
+        <title>AEESSUI: Academics</title>
         <link rel="icon" type="image/x-icon" href="AEE.jpeg">
         <link rel="stylesheet" href="style_prototype.css">
+        <link rel="stylesheet" href="table.css">
         <link rel="stylesheet" href="layout.css">
+        <link rel="stylesheet" href="homepage.css">
     </head>
 
     <body>
@@ -14,7 +16,7 @@
             <header class="content">
                 <ul>
                     <li>
-                        <a href="prototype.html">
+                        <a href="index.html">
                             <span id="AEESSUI">
                                 <span>A</span> <span>E</span> <span>E</span> <span>S</span> <span>S</span> <span>U</span> <span>I</span>
                             </span>
@@ -25,10 +27,23 @@
                         </a>
                        
                         <span id="a_hamburger">
+                            <span id="row">
+                                <nav id="sec-test">
+                                    <ul class="aee-border">
+                                        <li><a href="About_AEESSUI.html">Course Requirements</a></li>
+                                        <li><a href="Academics.html">Academics</a></li>
+                                        <li><a href="Admissions_Requirements.html">Admissions Requirements</a></li>
+                                        <li><a href="UG_Programme.html">Under-Graduate Programme</a></li>
+                                        <li><a href="PG_Programme.html">Post-Graduate Programme</a></li>
+                                        <li><a href="Research.html">Research & Collections</a></li>
+                                        <li><a href="Life_at_AEESSUI.html">Life at AEESSUI</a></li>
+                                    </ul>
+                                </nav >
+                            </span>
                             <img id="hamburger" role="button" alt="dropdown." src="dropdown.png">
                             <nav id="test">
                                 <ul>
-                                    <li><a href="About_AEESSUI.html">About AEESSUI</a></li>
+                                    <li><a href="About_AEESSUI.html">Course Requirements</a></li>
                                     <li><a href="Academics.html">Academics</a></li>
                                     <li><a href="Admissions_Requirements.html">Admissions Requirements</a></li>
                                     <li><a href="UG_Programme.html">Under-Graduate Programme</a></li>
@@ -42,12 +57,51 @@
                 </ul>
             </header>
 
-            <main class="div-bg pad-10">
-                <h1>5. Post-Graduate Programme</h1>
-                <div class="main" >
-                    C O N T E N T
+            <div id="layout_bottom" class="flex-container aee-border mt-10 bg-green">
+                <a href="#base">Go To Bottom</a>
+            </div>
+
+            <main class="pad-10">
+                <h1 class="default-mar-pad bb">5. Post-Graduate Programme</h1>
+                <div class="main mt-20">
+                    <p class="child">
+                        Post-graduate training programmes commenced in the department in th 1970s, and the first Ph.D. was produced in 1984. Currently, the Department still offers M.Sc., M.Phil. and Ph.D. training programes in all fields of Agricultural and Environmental Enginnerring.
+                    </p>
+                    <p class="child">
+                        The area of specialization in the Agricultural and Environmental Engineering Programme are:<br>
+                        <span class="italics">
+                            <span>i. Farm power and Machinery</span><br><br>
+                            <span>ii. Crop Processing and Storage</span><br><br>
+                            <span>iii. Soil and Water Conservation</span><br><br>
+                            <span>iv. Farm Structures and Environment</span><br><br>
+                            <span>v. Environmental Engineering</span><br><br>
+                            <span>Rural Electrification and Utilization</span><br><br>
+                            <span>Biomass Energy Conversion</span><br>
+                        </span>
+                    </p>
+                    <h2>ENTRY REQUIREMENTS, DURATION AND REGISTRATION</h2>
+                    <p class="child">
+                        (a) M. Sc.<br>
+                        <span class="italics">
+                            <span>The M.Sc programme in Agricultural and Environmental Engineering is for suitably  ...</span>
+                        </span>
+                    </p>
+                    <p class="child">
+                        (a) M. Phil.<br>
+                        <span class="italics">
+                            <span>Holders of M. Sc. degree in Agricultural and Environmental Engineering of the UNiversity of Ibadan ... </span>
+                        </span>
+                    </p>
+                    <p class="child">
+                        (a) Ph.D.<br>
+                        <span class="italics">
+                            <span>Holders of M. Sc. or M. Phil. degrees in Agricultural ...  ...</span>
+                        </span>
+                    </p>
                 </div>
-                <div class="div-bg mt-10">
+
+        
+                <div class="mt-10">
                     <a href="UG_Programme.html" class="iter">
                         <span>&lt;</span>
                         PREV
@@ -59,26 +113,32 @@
                 </div>
             </main>
 
-            <footer class="mt-10">
-                <div class="div-bg pad-10">
-                    <span class="float-right div-bg">Count Down</span>
-                    <h2>Weekly Visitor's Welcome Trivia!</h2>
+            <footer id="base" class="mt-10">
+                <div id="sign_in_footer" class="div-bg pad-10">
+                    <!-- <span class="float-right div-bg">Count Down</span> -->
+                    <h2 id="weekly_sign_in">Weekly Visitor's Welcome Trivia!</h2>
                     <p>Stand a chance to be amongst 10 lucky random winners to win some amazing gifts, coupons, souvenirs, e.t.c.</p>
-                    <h3> Q: How many cubic metre makes 1 Litre?</h3>
+                    <h3 class="default-mar-pad"> Q: How many cubic metre makes 1 Litre?</h3>
                     <form>
-                         <span id="answer">A: </span> <input>
+                        <span id="answer">A: </span>  <input type="text">
+                        <input type="submit">
                     </form>
                 </div>
 
-                <div class="foot bg-white">
-                    <div class="div-bg fb-49 title">
+                <div class="foot">
+                    <div class="fb-49 title">
                         <P>UNIVERSITY OF IBADAN</P>
                     </div>
-                    <div class="div-bg fb-49 title">
+                    <div class="fb-49 title">
                         <p>FACULTY OF TECHNOLOGY </p>
                     </div>
                 </div>
             </footer>
+
+            <div class="back-to-top">
+                <a href="#top"><img alt="back to top." src="arrow_up.png"></a>
+            </div>
+
         </div>
     </body>
 </html>

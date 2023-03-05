@@ -1,24 +1,107 @@
 
 
-table{
-    /* background-color: bisque; */
-    border-collapse: collapse;
-    width:100%;
-}
+@media only screen and (max-width: 600px) {
+    main h1{
+        text-align: center;
+        border:1px solid green;
+        padding:10px;
+    }
+    #section{
+        /* background-color: red; */
+        margin-top:-25px;
+    }
+    body{
+        /* background-color: red; */
+    }
+    .content{
+        /* display:flex; */
+        /* background-color: yellow; */
+        width:100%;
+    }
+    main{
+        display: flex;
+        flex-wrap:wrap;
+        width:100%;
+        overflow: scroll;
+        justify-content: center;
+    }
+    table{
+        background-color: bisque;
+        border-collapse: collapse;
+        width:100%;
+    }
+    .table{
+        height:300px;
+        overflow: scroll;
+        background-color: gray;
+    }
+    
+    thead{
+        background-color: green;
+        color:white;
+        /* font-size: 20px; */
+    }
+    th, td{ 
+        text-align: left;
+        padding: 8px;
+        color:red;
+        display:flex;
+    }
+    /* .f{
+        background-color: red;
+        color:white;
+    }
+    .s{
+        background-color:blue;
+        color:white;
+    }
+    .t{
+        background-color:green;
+        color:white; 
+    }*/
 
-thead{
-    background-color: green;
-    color:white;
-    /* font-size: 20px; */
+    
+    tbody tr:nth-child(even){
+        background-color: #f2f2f2;
+    }
+    tbody tr:nth-child(odd){
+        background-color:rgb(196, 234, 196);
+    }
 }
-th, td{ 
-    text-align: left;
-    padding: 8px;
-}
-
-tbody tr:nth-child(even){
-    background-color: #f2f2f2;
-}
-tbody tr:nth-child(odd){
-    background-color:rgb(196, 234, 196);
+@media only screen and (min-width: 600px) {
+    main h1{
+        text-align: center;
+        border:1px solid green;
+        padding:10px
+    }
+    #form-field{
+        margin-top:70px;
+        font-weight:bold;
+    }
+    #section{
+        /* background-color: red; */
+        margin-top:-50px;
+    }
+    table{
+        /* background-color: bisque; */
+        border-collapse: collapse;
+        width:100%;
+    }
+    
+    thead{
+        background-color: green;
+        color:white;
+        /* font-size: 20px; */
+    }
+    th, td{ 
+        text-align: left;
+        padding: 8px;
+    }
+    
+    tbody tr:nth-child(even){
+        background-color: #f2f2f2;
+    }
+    tbody tr:nth-child(odd){
+        background-color:rgb(196, 234, 196);
+    }
 }

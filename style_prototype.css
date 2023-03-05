@@ -3,6 +3,11 @@
     flex-basis: 100%;
     flex-wrap:wrap;
     justify-content: center;
+    /* padding: 10px; */
+}
+.bg-green{
+    background-color:green;
+    color:white;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -156,6 +161,25 @@
         margin:3px 0px;
         border:1px solid black;
     }
+    #search_ul{
+        /* display: none; */
+        position: absolute;
+        padding:0;
+        margin:0;
+        height:150px;
+        /* width:0; */
+        border:none;
+        overflow:auto;
+        /* padding:20px 10px; */
+        background-color:#dddddd;
+        color:purple;
+        font-size:17px;
+        z-index: 3;
+        border-bottom: green;
+    }
+    #search ul::first-line{
+        color:red;
+    }
     input[type=text]{
         background-image: url('searchicon.png');
         background-position: 10px 10px;
@@ -169,9 +193,7 @@
         padding: 10px;
         font-size: larger;
     }
-    #search_ul{
-        visibility: hidden;
-    }
+    
 
     #trivia{
         background-color: aliceblue;
@@ -182,9 +204,7 @@
     #ui_logo{
         width:100%;
     }
-     #search_ul{
-        visibility: hidden;
-    }
+    
     #sub-content{
         position: absolute;
         overflow: auto;
@@ -192,12 +212,17 @@
         width:70%;
         margin-top: -20px;
         padding:10px;
-        background-color:white;
+        background-color:blanchedalmond;
         height:200px;
+        border-right: 2px solid green;
+        border-bottom:5px solid green;
+        border-left: 2px solid green;
+
     }
     #environment{
         font-weight: bold;
-        font-size:10px;
+        font-size:15px;
+        /* color:red; */
     }
     hr{
         width: 30px;
@@ -220,12 +245,17 @@
         padding:5px;
         border:0.5px solid gray;
         margin-bottom: 10px;
+        font-size:20px;
+        margin-left:20px;
+        /* width:50%; */
     }
     #feature_archive{
         display:flex;
         background-color: rgb(77, 70, 70);
         color:white;
         padding:5px 10px;
+        font-size:15px;
+        margin-left:20px;
     }
     .footer{
         position: relative;
@@ -316,6 +346,8 @@
     .info-child{
         color:black;
         background-color: rgb(200, 251, 248);
+        text-align: left;
+        padding:0px 10px;
         /* background-color: #eee; */
     }
 
@@ -341,19 +373,20 @@
     footer #left{
         flex-basis:100%;
         background-color: rgb(235, 208, 208);
-        padding: 0px 10px;
+        padding:10px;
         margin-bottom: 10px;
         background-color: #ddd;
     }
     footer #right{
         flex-basis:100%;
-        background-color:white;
-        padding: 0px 10px;
+        background-color:rgb(16, 16, 16);
+        padding:10px;
     }
 
     .h3{
         padding:0px;
         margin:10px 0px 0px;
+        color:white;
     }
 
     #right ul{
@@ -384,7 +417,17 @@
     }
 
     #right a{
-        color:green;
+        display:block;
+        background-color:rgb(84, 76, 76);
+        color:white;
+        padding:3px;
+        border:3px solid transparent;
+        border-radius:5px;
+        text-align:left;
+        font-size:15px;
+    }
+    #right a:hover{
+        border:3px solid rgb(251, 250, 250);
     }
 
     .bg-white{
@@ -422,20 +465,37 @@
         bottom:20px;
         margin-right:10px;
         float:right;
-        background-color: red;
-        background-color: rgb(103, 156, 177);
+        background-color: rgb(229,225,225);
+        background-color: green;
         border-radius: 5px;
+        text-align: center;
+        padding:5px;
+        border:2px solid black;
     }
     .back-to-top a{
-        padding:10px 20px;
-        background-color: rgb(103, 156, 177);
+        background-color: rgb(229,225,225);
         border-radius: 5px;
-        border:1px solid black;
+    }
+    #quick_connect{
+        color:black;
+    }
+    .extend_hr ul p{
+        font-size:17px;
+        border-bottom:2px solid purple;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
+    .extend_hr ul p{
+        font-size:30px;
+        border-bottom:2px solid purple;
+    }
+
+    #quick_connect{
+        color:black;
+    }
 
     #row{
         display:none;
@@ -620,19 +680,23 @@
         position: absolute;
         padding:0;
         margin:0;
-        height: 300px;
+        height:200px;
         border:none;
-        overflow: auto;
-        /* top:60px;
-        padding:20px 10px;
-        z-index: -1; */
-        /* background-color: transparent; */
-        /* border: transparent; */
-        /* z-index: 2; */
+        overflow:auto;
+        /* padding:20px 10px; */
+        background-color:#dddddd;
+        font-size:25px;
+        color:purple;
+    }
+    #search ul li{
+        background-color: aliceblue;
     }
     #search_ul:hover{
         z-index: 2;
     }
+    /* #search:focus + #search_ul{
+        display:block;
+    } */
     #sub-content{
         position: absolute;
         overflow: auto;
@@ -640,9 +704,12 @@
         width:70%;
         margin-top: -20px;
         padding:10px;
-        background-color:white;
-        border:1px solid green;
+        background-color:blanchedalmond;
+        /* border:1px solid green; */
         height:200px;
+        border-right: 5px solid green;
+        border-bottom:5px solid green;
+        border-left: 5px solid green;
     }
     #environment{
         font-weight: bold;
@@ -657,7 +724,7 @@
     .hr{
         font-family:'Times New Roman', Times, serif;
         color:green;
-        background-color: #eee;
+        /* background-color: #eee; */
     }
     .extend_hr{
         font-size: 10px;
@@ -771,6 +838,8 @@
     .info-child{
         color:black;
         background-color: rgb(200, 251, 248);
+        text-align: left;
+        padding:0px 10px;
         /* background-color: #eee; */
     }
 
@@ -828,6 +897,11 @@
 
     #philosophy li{
         margin-bottom:5px;
+    }
+    #philosophy span{
+        color:Red;
+        font-size:25px;
+        margin-right: 10px;
     }
     #objectives{
         text-align: left;
@@ -887,15 +961,16 @@
         bottom:20px;
         margin-right:10px;
         float:right;
-        /* background-color: red; */
-        background-color: rgb(103, 156, 177);
+        background-color: rgb(229,225,225);
+        background-color:green;
         border-radius: 5px;
+        text-align: center;
+        padding:10px;
+        border:3px solid black;
     }
     .back-to-top a{
-        padding:10px 20px;
-        background-color: rgb(103, 156, 177);
+        background-color: rgb(229,225,225);
         border-radius: 5px;
-        border:1px solid black;
     }
 }
 

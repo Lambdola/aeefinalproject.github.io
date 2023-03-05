@@ -11,3 +11,26 @@ function active(option){
     }
 }
 
+let input = document.getElementById('search');
+let li = document.getElementById('search_ul');
+let p = document.getElementsByTagName('p');
+
+input.addEventListener('keyup', function(){
+    var i, j, k;
+    let val = input.value.toUpperCase();
+    li.innerHTML = '';
+    for (i = 0; i < p.length; i++){
+        j = p[i].innerHTML
+        k = j.toUpperCase();
+        if (k.indexOf(val) > 0){
+            li.innerHTML += '<li>' + j + '</li>' + '<br>';
+        }
+
+    }
+}
+);
+
+
+
+
+

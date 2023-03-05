@@ -118,6 +118,12 @@
         padding: 1px 10px;
         font-size: 15px;
     }
+
+    #nav-links-1 li:last-child a{
+        color:green;
+        font-weight: bold;
+    }
+
     li a{
         padding:5px 10px;
     }

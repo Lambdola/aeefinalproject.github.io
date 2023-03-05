@@ -1,16 +1,26 @@
+
+
+
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px)  {
     /* red */
     body{
         background-color: aliceblue;
+        /* width:100px; */
     }
     main{
         margin-top:20px;
         background-color:aliceblue;
         border:5px solid green;
     }
+    
+
+    tr{
+        /* color:yellow; */
+        font-size:15px;
+    }
     .pad-10{
-        padding:10px;
+        padding:2px;
     }
     h1,h2,h3,.pad-10 p,form{
         position: relative;
@@ -20,8 +30,8 @@
     .main{
         background-color:rgb(196, 234, 196);
         text-align:left;
-        margin-left:20px;
-        height:200px;
+        margin-left:10px;
+        /* height:200px; */
         overflow: auto;
         padding:5px;
     }
@@ -89,7 +99,134 @@
     .title p{
         font-size:10px;
     }
-    
+    p.child > span span{
+        padding:0px 30px;
+        /* background-color: red; */
+        color:Red;
+    }
+    .main h2{
+        /* color:Red; */
+        font-size:16.5px;
+        /* text-decoration: underline; */
+    }
+    #layout_bottom a{
+        padding:0px 73px;
+        background-color:none;
+        font-size:30px;
+        font-weight: bold;
+        color:white;
+    }
+    #layout_bottom a:hover{
+        background-color:rgb(45, 174, 45);
+    }
+}
+@media only screen and (max-width: 600px) and (max-height:600px) {
+    /* red */
+     /* red */
+     body{
+        background-color: aliceblue;
+    }
+    main{
+        margin-top:20px;
+        background-color:aliceblue;
+        border:5px solid green;
+    }
+    tr{
+        /* color:yellow; */
+        font-size:13px;
+    }
+    .pad-10{
+        padding:10px;
+    }
+    h1,h2,h3,.pad-10 p,form{
+        position: relative;
+        text-align:left;
+        /* background-color: red; */
+    }
+    .main{
+        background-color:rgb(196, 234, 196);
+        text-align:left;
+        margin-left:20px;
+        height:400px;
+        overflow: auto;
+        padding:5px;
+    }
+
+    .main p::first-letter{
+        font-size: larger;
+        color:brown;
+        font-weight: bold;
+    }
+    .mt-10{
+        margin-top: 10px;
+        padding:5px;
+    }
+    .mt-20{
+        margin-top:20px;
+    }
+    .bb{
+        /* background-color: red; */
+        border-bottom: 2px solid green;
+    }
+    div.mt-10{
+        overflow: auto;
+        border:1px solid green;
+    }
+    .mt-10 a:hover{
+        background-color:rgb(68, 158, 68);
+    }
+    .iter{
+        font-size:20px;
+        float:left;
+        background-color:green;
+        color:white;
+        font-weight: bold;
+        display: block;
+        padding:15px;
+        text-align: center;
+    }
+    .iter span{
+        font-size: 30px;
+        background-color:none;
+        padding:0px;
+    }
+    .float-right{
+        float:right;
+    }
+    .div-bg{
+        background-color:  rgb(16, 16, 16);
+        border:1px solid white;
+    }
+    #sign_in_footer, #answer{
+        font-size:15px;
+    }
+    #sign_in_footer form{
+        position: relative;
+        margin:10px 0px 10px;
+    }
+    .title{
+        border:none;
+        border-right: 1px solid white;
+        border-left: 1px solid white;
+        background-color:transparent;
+        color:white;
+        font-weight: bold;
+    }
+    .title p{
+        font-size:10px;
+    }
+    p.child > span span{
+        padding:0px 30px;
+        /* background-color: red; */
+        color:Red;
+    }
+    #layout_bottom a{
+        padding:0px 53px;
+        background-color:none;
+        font-size:30px;
+        font-weight: bold;
+        color:white;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -97,6 +234,17 @@
     /* orange */
     body{
         background-color:aliceblue;
+    }
+
+    #layout_bottom a{
+        padding:0px 203px;
+        background-color:none;
+        font-size:30px;
+        font-weight: bold;
+        color:white;
+    }
+    #layout_bottom a:hover{
+        background-color:rgb(45, 174, 45);
     }
 
     main{
@@ -120,6 +268,7 @@
         height:100px;
         padding:5px;
     }
+    
     .main p{
         margin:0;
         padding:0;
@@ -177,6 +326,11 @@
     }
     .foot{
         margin-top:10px;
+    }
+    p.child > span span{
+        padding:0px 30px;
+        /* background-color: red; */
+        color:Red;
     }
 }
 

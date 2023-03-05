@@ -1,5 +1,16 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width:600px) {
+
+    #philosophy li, #objectives p{
+        font-size:15px;
+        color:purple;
+        margin-bottom: 10px;
+    }
+    #philosophy span, #objectives span{
+        color:red;
+        margin-right:5px;
+        font-weight: bold;
+    }
     #play_your_part{
         position: absolute;
         color:white;
@@ -23,11 +34,35 @@
         /* margin-top: 40px; */
         color:white;
     }
+    #bsc{
+        /* color:red; */
+        text-align: center;
+        font-size:15px;
+        font-weight:bold;
+        text-decoration: underline;
+    }
+     main{
+        display: flex;
+        flex-wrap:wrap;
+        width:95%;
+        overflow: scroll;
+        justify-content: center;
+    }
+    /* main h1{
+        color:Red;
+        background-color: blue;
+        margin-right:0;
+    } */
 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    .italics{
+        font-style:oblique;
+        margin-right:10px;
+        /* font-size:10px; */
+    }
     #AEESSUI{
         font-size: larger;
     }
@@ -105,7 +140,7 @@
     }
     #learn_more, #feature_archive{
         padding:5px;
-        font-size:20px;
+        font-size:23px;
     }
     #the_vital_parts, #a_closer_look{
         margin-top:5px;
@@ -119,8 +154,21 @@
         font-size: 30px;
     }
     #philosophy li, #objectives p{
-        font-size:20px;
+        font-size:25px;
         color:purple;
+        margin-bottom: 10px;
+    }
+    #philosophy span, #objectives span{
+        color:red;
+        margin-right:5px;
+        font-weight: bold;
+    }
+    #bsc{
+        /* color:red; */
+        text-align: center;
+        font-size:25px;
+        font-weight:bold;
+        text-decoration: underline;
     }
     .h3{
         font-size:30px;

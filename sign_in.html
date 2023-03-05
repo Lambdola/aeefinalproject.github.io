@@ -60,16 +60,17 @@
                 <p class="default-mar-pad fb-40"><a id="a_form" onclick="active('form')" href="#form-field" >ol</a></p>
                 <p class="default-mar-pad fb-40"><a id="a_base" onclick="active('base')" href="#base" >ol</a></p>
             </div>
+            
             <div id="form-field">           
                 <img src="AEE.jpeg">
                 <div id="section">
                     <p id="name"> A E E S S U I </p>
-                    <form>
+                    <form action="/sign_in.html">
                         <p id="username" >Username</p>
-                        <input type="text" placeholder=" Username">
+                        <input name="username" type="text" placeholder=" Username">
                         <p id="password">Password</p>
-                        <input type="text" placeholder=" Password"><br>
-                        <a class="button" href="index_students.html">SIGN IN</a>
+                        <input name="password" type="text" placeholder=" Password"><br>
+                        <button class="button" type="submit">SIGN IN</button>
                     </form>
                 </div>
             </div>
@@ -80,8 +81,10 @@
                     <h2 id="weekly_sign_in">Weekly Visitor's Welcome Trivia!</h2>
                     <p>Stand a chance to be amongst 10 lucky random winners to win some amazing gifts, coupons, souvenirs, e.t.c.</p>
                     <h3 class="default-mar-pad"> Q: How many cubic metre makes 1 Litre?</h3>
-                    <form>
-                        <span id="answer">A: </span> <input>
+                    <form id="send_form">
+                        <span id="answer">A: </span> <input type="text">
+                        <img id="send" alt="send." src="send.png">
+                        <button id="submit" type="submit">SUBMIT</button>
                     </form>
                 </div>
 
