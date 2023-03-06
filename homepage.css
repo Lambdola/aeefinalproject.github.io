@@ -1,4 +1,9 @@
-
+.fs-20{
+    font-size:20px;
+}
+.fs-15{
+    font-size: 15px;
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -283,6 +288,15 @@
         padding-bottom:30px;
         padding-top: 10px;
     }
+    div.db p{
+        font-weight: bold;
+    }
+    div.db a{
+        /* color:red; */
+        /* font-weight: bold; */
+        text-decoration: none;
+        color:black;
+    }
     #edit{
         font-size:25px;
         margin: 10px;
@@ -303,6 +317,12 @@
     #table{
         /* color:red; */
         font-size:20px;
+    }
+    #details{
+        height:600px;
+    }
+    #dept_results p{
+        font-size:25px;
     }
 }
 
