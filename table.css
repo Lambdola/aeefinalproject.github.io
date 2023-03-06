@@ -1,5 +1,7 @@
 
 
+
+
 @media only screen and (max-width: 600px) {
     main h1{
         text-align: center;
@@ -11,7 +13,7 @@
         margin-top:-25px;
     }
     body{
-        /* background-color: red; */
+        background-color:aliceblue;
     }
     .content{
         /* display:flex; */
@@ -33,7 +35,10 @@
     .table{
         height:300px;
         overflow: scroll;
-        background-color: gray;
+        background-color:transparent;
+        margin-top: 20px;
+        text-align: center;
+        margin-left:10px;
     }
     
     thead{
@@ -44,8 +49,8 @@
     th, td{ 
         text-align: left;
         padding: 8px;
-        color:red;
-        display:flex;
+        /* color:red; */
+        /* display:flex; */
     }
     /* .f{
         background-color: red;
@@ -68,6 +73,8 @@
         background-color:rgb(196, 234, 196);
     }
 }
+
+
 @media only screen and (min-width: 600px) {
     main h1{
         text-align: center;
@@ -103,5 +110,10 @@
     }
     tbody tr:nth-child(odd){
         background-color:rgb(196, 234, 196);
+    }
+    .table{
+        background-color:#4fe0b6;
+        height:350px;
+        overflow:scroll;
     }
 }

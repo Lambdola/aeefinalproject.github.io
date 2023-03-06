@@ -94,6 +94,7 @@
         width:100%;
         border:1px solid blue;
         margin-bottom: 20px;
+        height:25px;
     }
     #submit{
         display:none;
@@ -237,6 +238,7 @@
         width:100%;
         border:1px solid blue;
         margin-bottom: 20px;
+        /* height:60px; */
     }
     
     form p{

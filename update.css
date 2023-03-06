@@ -1,0 +1,46 @@
+@media only screen and (max-width: 600px) {
+    main{
+        padding: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    input{
+        height:15px;
+        padding: 10px;
+        border:1px solid blue;
+        font-size:17px;
+        /* width: 50%; */
+    }
+    input::placeholder{
+        font-size:15px;
+    }
+    .div{
+        margin-bottom: 10px;
+    }
+    
+}
+@media only screen and (min-width: 600px) {
+    main{
+        padding: 20px;
+    }
+    p{
+        font-size:30px;
+    }
+    input{
+        height:25px;
+        padding: 10px;
+        border:1px solid blue;
+        font-size:30px;
+    }
+    input::placeholder{
+        font-size:25px;
+    }
+    .div{
+        margin-bottom: 10px;
+    }
+    .button{
+        font-size: 30px;
+    }
+}
+
